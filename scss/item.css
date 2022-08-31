@@ -1,0 +1,34 @@
+:root {
+  --oswald-font:'Oswald', sans-serif;
+  --main-color: #000;
+  --second-color: #FFDAB9;
+  --second-bg-color: #fff;
+  --main-bg-color-opacity: rgba(255, 218, 185, 0.5);
+  --white-text-color: #fff;
+  --black-text-color: #000;
+  --ind-banner-color: linear-gradient(88deg, #FFDAB9 53%, #ffdab980);
+}
+
+@media (max-width: 1366px) {
+  #section__goal .wrapp__ind {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #section__goal {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #section__goal .wrapp__ind {
+    position: inherit;
+  }
+  #section__goal .goal__images {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=item.css.map */
