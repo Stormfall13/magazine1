@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/item.css">
+    <link rel="stylesheet" href="scss/popup.css">
+    <link rel="stylesheet" href="scss/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header__item">
+            <div class="logo__item">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="item__universal">
+                    <div class="name">Юлия Юрьевна</div>
+                    <div class="descriptor">Авторская одежда</div> 
+                </div>
+            </div>
+            <input  id="nav-toggle" class="nav-toggle" type="checkbox"/>
+            <div class="burger__item">
+                <div class="burger__icon">
+                    <label class="nav-toggle-label" for="nav-toggle" >
+                        <span class="burger__line burger__line--one"></span>
+                        <span class="burger__line burger__line--two"></span>
+                        <span class="burger__line burger__line--tree"></span>
+                    </label> 
+                </div>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a class="main-menu__link" href="#section__about">Обо мне</a></li>
+                    <li><a class="main-menu__link" href="#section__prod">Готовая продукция</a></li>
+                    <li><a class="main-menu__link" href="#section__stock">Акции</a></li>
+                    
+                </ul>
+            </nav>   
+        </div>
+    </header>
+    <div id="section__goal">
+        <div class="wrapp__ind">
+            <div class="ind__item">
+                <div class="text__item">
+                    <p class="wr__text">Моя цель - </p>
+                    <p class="text__text">индивидуальность вашего стиля</p>
+                </div>
+                <button class="btn__goal">Заказать пошив</button> 
+            </div>
+        </div>
+        <div class="goal__images">
+            <img src="img/hx1.png" alt="">
+        </div>
+    </div>
+<div id="section__prod">
+    <p class="prod__title">Готовая продукция</p>
+    <div class="content">
+        <div class="container">
+            <div class="info" >
+                <div class="header">
+                    <div class="header-tab">Женская одежда</div>
+                    <div class="header-tab">Мужская одежда</div>
+                    <div class="header-tab">Детская одежда</div>
+                </div>
+                <div class="tabcontent">
+                    <div class="wrapper">
+                        <div class="content__tabs">
+                            <div class="image__tabs">
+                                <img src="img/z1.png" alt="">
+                            </div>
+                            <div class="wrapp__item">
+                                <p class="title__item">Летнее платье</p>
+                                <div class="size__title"><span>Размеры:</span> S/M/L/XL</div>
+                                <a class="open_modal">Подробнее</a>
+                                <div id="modal" class="modal bounceIn">
+                                <div class="popup__wrapp">
+                            
+                                    <div class="head__modal">
+                                        <div class="head__title">
+                                            Летнее платье
+                                        </div>
+                                        <div id="close_modal">
+                                            <img src="img/close.png" alt="">
+                                        </div> 
+                                    </div>
+                                    
+                            
+                                    <div class="pop__item">
+                                        <div class="popup__slider">
+                                        
+                                            <div class="slider">
+                                                <div class="slider-main">
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z2.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z2.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                </div>
+                                                
+                                                <div class="slider-thumbs">
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z2.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z2.png" alt=""></div>
+                                                    <div class="slider-item" ><img src="img/z1.png" alt=""></div>
+                                                </div>
+                                            </div>  
+                                        </div> 
+                                        <div class="popup__textForm">
+                                            <p class="pop__text">Сайт рыбатекст поможет дизайнеру, верстальщику, 
+                                                вебмастеру сгенерировать несколько абзацев более менее 
+                                                осмысленного текста рыбы на русском языке. Сайт рыбатекст 
+                                                поможет дизайнеру, верстальщику, вебмастеру сгенерировать 
+                                                несколько абзацев более менее осмысленного текста рыбы 
+                                                на русском языке.</p>
+                                
+                                            <div class="form-container">
+                                                <div class="belt">
+                                                    <div role="form" class="form" action="get">
+                                                    
+                                                    <div class="select__wrapp">
+                                                        <div class="select__size">
+                                                            <div class="text__size">
+                                                                Ваш размер
+                                                            </div>
+                                                            
+                                                            <select class="select__size" name="" id="">
+                                                                <option value="S">S</option>
+                                                                <option value="M">M</option>
+                                                                <option value="L">L</option>
+                                                                <option value="XL">XL</option>
+                                                            </select> 
+                                                        </div> 
+                                                        <div class="select__color">
+                                                            <div class="text__color">
+                                                                Выберите цвет
+                                                            </div>
+                                                            <select class="color__select" name="" id="">
+                                                                <option value="Красный">Красный</option>
+                                                                <option value="Черный">Черный</option>
+                                                                <option value="Белый">Белый</option>
+                                                                
+                                                            </select> 
+                                                        </div>  
+
+                                                        <div class="wrapp__input">
+                                                            <input type="text" placeholder="Имя" />
+                                                            <input type="tel" placeholder="Телефон"/> 
+                                                        </div>
+
+                                                    </div>
+
+                                                    <button type="submit">Оформить заказ</button>
+                                                    </div>
+                                                    <div class="progress-wrapper">
+                                                    <div class="progress-div">
+                                                        <h3>Ожидайте...</h3>
+                                                        <div class="progress-outer">
+                                                        <div class="progress-inner"></div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="success-wrapper">
+                                                    <div class="success">
+                                                        <i class="ion-android-done"></i>
+                                                        <h2>Форма отправлена!</h2>
+                                                        <button>Назад</button>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                </div> 
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div> 
+                            </div>
+                        </div>
+                        <div class="content__tabs">2</div>
+                        <div class="content__tabs">3</div>
+                        <div class="content__tabs">4</div>
+                        <div class="content__tabs hidden">5</div>
+                        <div class="content__tabs hidden">6</div>
+                        <div class="content__tabs hidden">7</div>
+                        <div class="content__tabs hidden">8</div>
+                        <div class="content__tabs hidden">9</div>
+                        <div class="content__tabs hidden">10</div>
+                        <div class="wrapp__btn">
+                            <div class="btn load_more"><a href="#">Ещё..</a></div>
+                        </div>
+                        
+                    </div> 
+                </div>
+                <div class="tabcontent">
+                    <div class="wrapper">
+                        <div class="content__tabs">1</div>
+                        <div class="content__tabs">2</div>
+                        <div class="content__tabs">3</div>
+                        <div class="content__tabs">4</div>
+                        <div class="content__tabs hidden">5</div>
+                        <div class="content__tabs hidden">6</div>
+                        <div class="content__tabs hidden">7</div>
+                        <div class="content__tabs hidden">8</div>
+                        <div class="content__tabs hidden">9</div>
+                        <div class="content__tabs hidden">10</div>
+                        <div class="wrapp__btn">
+                            <div class="btn load_more"><a href="#">Load more</a></div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="tabcontent">
+                    <div class="wrapper">
+                        <div class="content__tabs">1</div>
+                        <div class="content__tabs">2</div>
+                        <div class="content__tabs">3</div>
+                        <div class="content__tabs">4</div>
+                        <div class="content__tabs hidden">5</div>
+                        <div class="content__tabs hidden">6asdads</div>
+                        <div class="content__tabs hidden">7</div>
+                        <div class="content__tabs hidden">8asdasdd</div>
+                        <div class="content__tabs hidden">9</div>
+                        <div class="content__tabs hidden">10</div>
+                        <div class="wrapp__btn">
+                            <div class="btn load_more"><a href="#">Load more</a></div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<div id="section__about">
+    <h1 class="page__title">Обо мне</h1>
+    <div class="wrapp__text">
+        <div class="about__pic">
+            <img src="img/x1.png" alt="">
+        </div>
+        <div class="about__text">
+            <p class="about__txt">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру 
+                сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском 
+                языке, а начинающему оратору отточить навык публичных выступлений в 
+                домашних условиях. При создании генератора мы использовали небезизвестный 
+                универсальный код речей. Текст генерируется абзацами случайным образом от 
+                двух до десяти предложений в абзаце, что позволяет сделать текст более 
+                привлекательным и живым для визуально-слухового восприятия.</p>
+            <p class="about__txt">По своей сути рыбатекст является альтернативой 
+                традиционному lorem ipsum, который вызывает у некторых людей 
+                недоумение при попытках прочитать рыбу текст. В отличии от 
+                lorem ipsum, текст рыба на русском языке наполнит любой макет 
+                непонятным смыслом и придаст неповторимый колорит советских времен.</p>
+        </div> 
+    </div>
+</div>
+<div id="section__stock">
+    <p class="title__stock">Акции</p>
+    <div class="stock__item">
+        <div class="wrapp__stock">
+            <div class="stock__banner">
+                <p class="discount">Скидка на мужскую одежду!</p>
+                <div class="procent">30%</div>
+                <a href="#" class="link__stock">Позвонить</a>
+            </div>
+        </div>
+        <div class="stock__pic">
+            <img src="img/h1.png" alt="">
+            <div class="overlay"></div>
+        </div> 
+    </div>
+</div>
+<div id="section__contact">
+    <p class="contact">Контакты</p>
+</div>
+    <footer id="footer">
+        <div class="wrapp__social">
+            <a href="#" class="link__social">
+                <img src="img/inst.png" alt="">
+            </a>
+            <a href="#" class="link__social">
+                <img src="img/telegram.png" alt="">
+            </a>
+            <a href="#" class="link__social">
+                <img src="img/whattsap.png" alt="">
+            </a>
+            <!-- <a href="#" class="link__social">
+                <img src="" alt="">
+            </a> -->
+        </div>
+        <nav class="footer__nav">
+            <ul class="footer__menu">
+                <li><a class="link__footer" href="#section__about">Обо мне</a></li>
+                <li><a class="link__footer" href="#section__prod">Готовая продукция</a></li>
+                <li><a class="link__footer" href="#section__stock">Акции</a></li>
+            </ul>
+        </nav>
+        <div class="wrapp__contact">
+            <div class="location">г. Москва, ул. Переяславская, д 123</div>
+            <a class="link__tel" href="#">+7 (000) 000-00-00</a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="js/popup.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
